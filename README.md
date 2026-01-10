@@ -25,17 +25,7 @@ graph LR
 
 | **분류** | **기술 스택** | **주요 역할 및 활용 이유** |
 | --- | --- | --- |
-| **Language** | **Python** | 데이터 전처리, 모델 학습 및 분석 파이프라인 구축을 위한 메인 언어 |
-| **Framework** | **PyTorch** | YOLOv8 및 ResNet50 모델 구현 및 딥러닝 학습 환경 구축 |
-| **Feature Extraction** | **ResNet50** | 제조 부품 이미지로부터 고차원 특징 벡터를 추출하여 데이터 분석에 활용 |
-| **Visualization** | **t-SNE** | 고차원의 데이터를 2차원으로 축소하여 제품 A/B 간의 군집 중첩 현상을 시각화 |
-| **Clustering** | **K-means** | 추출된 특징 데이터를 바탕으로 레이블 없이 부품 간 유사성을 그룹화하여 분포 확인 |
-| **Object Detection** | **YOLOv8** | 실시간 객체 탐지 및 정밀 분류를 수행하는 메인 지도 학습 모델로 활용 |
-| **Labeling Tool** | **LabelImg** | 바운딩 박스 기반의 학습 데이터셋 라벨링 수행 |
-| Environment | Google Colab | GPU환경을 활용하여 학습 가속화 |
-## 🔧 사용 기술  
 | Language | Python | 전체 시스템 로직 구현 및 라이브러리 통합  |
-| --- | --- | --- |
 | AI Model | YOLOv8 | 실시간 객체 탐지  |
 | Tracker | SORT, ByteTrack | 객체 추적 및 ID 관리 |
 | Library | OpenCV | Native Drawing 기반 시각화 |
@@ -58,3 +48,15 @@ graph LR
 ### 4. **엣지 디바이스 최적화**
 
 - OpenCV Native Drawing을 통해 렌더링 오버헤드를 줄여, 저사양 환경에서도 실시간 FPS 방어.
+
+
+
+
+
+
+
+
+
+
+
+
