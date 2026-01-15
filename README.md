@@ -28,7 +28,7 @@ graph LR
 | AI Model | YOLOv8 | 차량 객체 실시간 탐지   |
 | Tracker | SORT, ByteTrack | 탐지된 객체에 고유 ID 부여 및 프레임 간 궤적 추적 |
 | Library | OpenCV | 영상 데이터 처리, 카운팅 라인 시각화 |
-| Math | NumPy | 벡터 외적 기반의 CCW 알고리즘을 통한 정밀 교차 판정 |
+| Math | NumPy, CCW | 벡터 외적 기반의 CCW 알고리즘을 통한 정밀 교차 판정 |
 
 ## 📍주요 기능
 
